@@ -51,23 +51,25 @@
 <h5> A use case diagram is a UML diagram that shows us in the form of scenarios how a system or software interacts with individuals, organizations, or external systems carried for the purposes of this diagram the name of actors. It transmits how the actor uses the system to achieve a specific goal. It doesn't implement details, attributes, and user values. Without an actor, creating a use case diagram would be impossible as the main goal is to show how to use the system. Thus, it allows you to designate programmer, the goals that a given software user will want to achieve. These diagrams are used to supplement more detailed documentation. For an eClinic system, the use case diagram would showcase how various actors, such as patients, doctors, and administrators, interact with the system to achieve their objectives. Examples of use cases might include scheduling appointments, managing patient records, viewing available time slots, and sending appointment reminders. Here's a brief overview of potential use cases for an eClinic system:
 </h5>
 <h6>
-  Patient:
+  Patient functions:
 
-Schedule appointment
-View appointment history
-Cancel appointment
-Receive appointment reminders
-Doctor:
+- Schedule appointment,
+- View appointment history,
+- Cancel appointment,
+- Receive appointment reminders,
 
-View daily schedule
-Update availability
-Access patient records
-Mark appointments as attended
-Administrator:
+Doctor functions:
 
-Manage user accounts
-Generate reports
-Configure system settings
+- View daily schedule and modify it if needed,
+- Update availability,
+- Access patient records, 
+- Mark appointments as attended,
+
+Administrator functions:
+
+- Manage user accounts, 
+- Generate reports,
+- Configure system settings, 
 </h6>
 
 
